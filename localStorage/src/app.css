@@ -1,0 +1,197 @@
+ html, body, div, span, applet, object, iframe, 
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+   del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, 
+   dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, 
+   tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+body, html {
+  height: auto;
+  min-height: 100%;
+  background-color: #F2F3F5;
+}
+
+p, span {
+	/*color: black; !important*/
+	color: black;
+	text-align: left;
+}
+
+div {
+ 	height:auto;
+}
+
+/*p {
+  color: blue;
+}*/
+
+h2 {
+    font-weight: bold;
+}
+
+h4 {
+  color: blue;
+  font-size: 25px;
+  overflow-wrap: break-word;
+}
+
+
+iframe {
+  z-index: 1;
+}
+
+div p{
+  overflow-wrap: break-word;
+}
+
+
+/*div.sticky {
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+}*/
+
+.top-bar {
+  z-index: 1;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  color: white;
+  position:sticky;
+  top:0;
+}
+
+.task-panel {
+  z-index: 1;
+  /*top: 10px; */
+  position:sticky;
+  top:32px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.task-div {
+  /*border: 2px solid red !important ;*/
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px 0px; background-color: rgb(170, 212, 179);
+  -webkit-box-shadow: 25px 25px 5px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 25px 25px 5px -13px rgba(0,0,0,0.75);
+  -o-box-shadow: 25px 25px 5px -13px rgba(0,0,0,0.75);
+}
+
+
+.fa-check {
+  background-color: inherit;
+  color: green;
+}
+
+.confirm {
+  background-color: inherit;
+}
+
+.fa-user {
+  color: white;
+}
+
+/* Style buttons */
+.btn {
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 4px 5px; /* Some padding */
+  margin: 2px;
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+/*.btn:hover {
+  background-color: white !important;
+}*/
+
+.edit {
+  background-color: green; 
+}
+
+.edit:hover{
+  /*background-image: linear-gradient(#4e69a2, #3b5998 50%);*/
+  background-color: white;
+  color: green;
+}
+
+.trash {
+  background-color: red; 
+}
+
+.trash:hover {
+  background-color: white; 
+  color: red;
+}
+
+.hide {
+    background-color: red; 
+}
+
+.hide:hover {
+  background-color: white; 
+  color: red;
+}
+
+.comment {
+  border-bottom: 1px solid black;
+}
+
+#logout-button {
+	margin-top: 2px;
+	margin-right: 3px;
+}
+
+#main-div {
+	/*border: solid black 1px;*/
+  margin: 0px !important;
+  background-color: #F2F3F5;
+	/*height: 92vh;*/
+}
+
+#first-button-div {
+	justify-content: left;
+	text-align: left;
+}
+
+
+#add-task-panel {
+  margin-top: 5px;
+ border-radius: 5px;
+
+}
+
+@media (min-width: 601px) {
+  .w3-col.m2 {
+      width: 10% !important;
+  }
+}
+
+@media (min-width: 601px) {
+  .w3-col.m1 {
+    width: 5%;
+  }
+}
+/*.hover-blue-gradient {
+  
+}*/
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+.logout-hover:hover {
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+}
